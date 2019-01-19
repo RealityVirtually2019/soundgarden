@@ -343,6 +343,10 @@
       <Project>{4960FCE8-F65B-A9AB-26BF-0B2D8B7D55E6}</Project>
       <Name>soundgarden</Name>
     </ProjectReference>
+    <ProjectReference Include="soundgarden.csproj">
+      <Project>{4960FCE8-F65B-A9AB-26BF-0B2D8B7D55E6}</Project>
+      <Name>soundgarden</Name>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Packages\com.unity.xr.magicleap\Editor\MLSpatialMapperEditor.cs" />
