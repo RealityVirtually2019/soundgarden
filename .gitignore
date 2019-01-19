@@ -1,0 +1,10 @@
+dist
+deploy
+src/assets/libs
+assets_src/RECOVER_*
+.DS_STORE
+Builds/
+Library/
+Temp/
+Assets/MagicLeap/
+.out
