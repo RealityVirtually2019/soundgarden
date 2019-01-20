@@ -7,8 +7,7 @@
       <File FileName="Assets/Scripts/OpenSource/GestureDetection.cs" Line="63" Column="24" />
       <File FileName="Assets/MagicLeap/Examples/Scripts/ControllerFeedbackExample.cs" Line="1" Column="1" />
       <File FileName="Assets/Scripts/SeedPickup.cs" Line="19" Column="1" />
-      <File FileName="Assets/Scripts/Control6DOF.cs" Line="33" Column="1" />
-      <File FileName="Assets/Scripts/Control6DOF.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Control6DOF.cs" Line="101" Column="1" />
       <File FileName="Assets/Scripts/SceneChanger.cs" Line="4" Column="35" />
     </Files>
   </MonoDevelop.Ide.Workbench>
