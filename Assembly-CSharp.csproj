@@ -61,7 +61,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\glow_player.cs" />
     <Compile Include="Assets\MagicLeap\CoreComponents\BaseRaycast.cs" />
     <Compile Include="Assets\MagicLeap\CoreComponents\BitMask.cs" />
     <Compile Include="Assets\MagicLeap\CoreComponents\ComboRaycastController.cs" />
@@ -140,9 +139,11 @@
     <Compile Include="Assets\MagicLeap\Examples\Scripts\Visualizers\VideoCaptureVisualizer.cs" />
     <Compile Include="Assets\MagicLeap\Examples\Scripts\WorldScaleExample.cs" />
     <Compile Include="Assets\MagicLeap\Scripts\MLVersion.cs" />
+    <Compile Include="Assets\Scripts\Control6DOF.cs" />
+    <Compile Include="Assets\Scripts\glow_player.cs" />
     <Compile Include="Assets\Scripts\OpenSource\GestureDetection.cs" />
     <Compile Include="Assets\Scripts\OpenSource\TouchCubeCollider.cs" />
-    <Compile Include="Assets\SeedPickup.cs" />
+    <Compile Include="Assets\Scripts\SeedPickup.cs" />
     <None Include="Assets\MagicLeap\BackgroundMusicExample\readme.txt" />
     <None Include="Assets\MagicLeap\Examples\Shaders\PointCloud.shader" />
     <None Include="Assets\MagicLeap\Examples\Documentation\MusicService.txt" />
