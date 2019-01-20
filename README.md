@@ -5,4 +5,4 @@ Project members:
 
 Dan Hart - Unity Developer
 Shylo Shepherd - Awesomeness. Graphics and design
-Xinle - Sound Composition and design, video
+Xinye Lin - Sound Composition and design, video
