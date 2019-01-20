@@ -17,6 +17,7 @@ public class GestureDetection : MonoBehaviour
 {
     //game object representing the finger position
     public Transform finger;
+    public AudioSource aud;
     // Use this for initialization
     void Start()
     {
@@ -45,6 +46,8 @@ public class GestureDetection : MonoBehaviour
         //add the gestures we want to track
         gestures.Add(MLHandKeyPose.Finger);
         gestures.Add(MLHandKeyPose.L);
+        gestures.Add(MLHandKeyPose.Fist);
+        gestures.Add(MLHandKeyPose.C);
         //add the gestures to the gesture manager
         MLHands.KeyPoseManager.EnableKeyPoses(gestures.ToArray(), true, true);
     }
@@ -52,6 +55,22 @@ public class GestureDetection : MonoBehaviour
     //track the gestures
     void gestureTracker()
     {
+        // let's test out playing a sound as a function of the hand gesture!
+
+        if (MLHands.Left.KeyPose == MLHandKeyPose.C || MLHands.Right.KeyPose == MLHandKeyPose.C)
+        {
+            Debug.Log("C-pose!");
+            aud.Play();
+
+            return;
+        }
+
+
+        if (MLHands.Left.KeyPose == MLHandKeyPose.Fist || MLHands.Right.KeyPose == MLHandKeyPose.Fist)
+        {
+            Debug.Log("Fist");
+            return;
+        }
         //check for the l or finger gesture
         //and that we've got some keypoints
         if ((MLHands.Left.KeyPose == MLHandKeyPose.Finger ||
@@ -73,11 +92,11 @@ public class GestureDetection : MonoBehaviour
     {
         //in Lumin SDK 0.13 only the center hand position
         //updates so we need to use that until it's fixed
-        //finger.position = hand.Index.Tip.Position;
-        finger.position = hand.Center;
+        finger.position = hand.Index.Tip.Position;
+        //finger.position = hand.Center;
         //set the finger position to the tip of the finger
         //finger.position = hand[1].position;
-        Debug.Log("Hand position Z " + hand.Center.z + " / " + finger.position + " finger position" );
+        Debug.Log("Hand position Z " + hand.Center + " / " + finger.position + " finger position" );
     }
 
     private void OnDestroy()

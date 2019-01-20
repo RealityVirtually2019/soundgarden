@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class SeedPickup : MonoBehaviour {
 
+    
+
 	// Use this for initialization
 	void Start () {
 		
