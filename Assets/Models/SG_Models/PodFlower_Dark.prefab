@@ -168,7 +168,7 @@ GameObject:
   - component: {fileID: 65854462874530334}
   - component: {fileID: 82009309503683696}
   m_Layer: 0
-  m_Name: PodFlower_Dark_Pink
+  m_Name: PodFlower_Dark
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
