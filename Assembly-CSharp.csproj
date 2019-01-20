@@ -62,6 +62,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\glow_player.cs" />
+    <Compile Include="Assets\UI\Simple Vector Icons\Sample\IconPreview.cs" />
     <Reference Include="Unity.PackageManagerUI.Editor">
       <HintPath>/Users/xinyelin/Documents/HACKATHON SOUND GARDEN/soundgarden/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
