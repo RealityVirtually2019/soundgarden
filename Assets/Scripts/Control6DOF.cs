@@ -10,6 +10,11 @@ public class Control6DOF : MonoBehaviour {
     private MLInputController _controller;
     #endregion
 
+    #region Public Variables
+    public bool AllowEnter = true;
+    public bool AllowExit = true;
+    #endregion
+
     #region Unity Methods
     void Start()
     {
@@ -34,7 +39,26 @@ public class Control6DOF : MonoBehaviour {
         // on collision enter
         // other.find component<audioplayer>.play()
         // other.find soundanimation.play
+
+
     }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (AllowEnter)
+        {
+            // todo: check for an audio source and play it!
+            Debug.Log("entered");
+        }
+    }
+    private void OnTriggerExit(Collider other)
+    {
+        if (AllowExit)
+        {
+            Debug.Log("exited");
+        }
+    }
+
     #endregion
 
 }
