@@ -139,7 +139,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 0e9c38155bf014fe8973132e06ac87fb, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 09536d08439a941deb1af8697ccc93a8, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -230,7 +230,7 @@ Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1653802369}
     m_Modifications:
     - target: {fileID: 4230296517233674, guid: 9cd48c9e369e1f6488f963a45e7b7e92, type: 2}
       propertyPath: m_LocalPosition.x
@@ -246,7 +246,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4230296517233674, guid: 9cd48c9e369e1f6488f963a45e7b7e92, type: 2}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 4230296517233674, guid: 9cd48c9e369e1f6488f963a45e7b7e92, type: 2}
       propertyPath: m_LocalRotation.y
@@ -262,13 +262,18 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4230296517233674, guid: 9cd48c9e369e1f6488f963a45e7b7e92, type: 2}
       propertyPath: m_RootOrder
-      value: 4
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 65508193245891226, guid: 9cd48c9e369e1f6488f963a45e7b7e92,
         type: 2}
       propertyPath: m_IsTrigger
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 82434044257708058, guid: 9cd48c9e369e1f6488f963a45e7b7e92,
+        type: 2}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 62f70364e3fdc499aaff37caf243a507, type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9cd48c9e369e1f6488f963a45e7b7e92, type: 2}
   m_IsPrefabParent: 0
@@ -343,7 +348,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1653802369}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &871951109
 BoxCollider:
@@ -443,6 +448,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   AllowEnter: 1
   AllowExit: 1
+  Yellow: {fileID: 1653802368}
+  Blue: {fileID: 1653802368}
+  Pink: {fileID: 1653802368}
+  Green: {fileID: 1653802368}
 --- !u!54 &1294179497
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -467,7 +476,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1653802369}
   m_Layer: 0
-  m_Name: Plants
+  m_Name: blue
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -483,9 +492,10 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
+  - {fileID: 1902389370}
   - {fileID: 871951108}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1742002086
 GameObject:
@@ -637,6 +647,11 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1889894819}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &1902389370 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4230296517233674, guid: 9cd48c9e369e1f6488f963a45e7b7e92,
+    type: 2}
+  m_PrefabInternal: {fileID: 601775719}
 --- !u!1 &2023836011
 GameObject:
   m_ObjectHideFlags: 0
