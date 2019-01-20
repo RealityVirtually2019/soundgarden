@@ -241,6 +241,15 @@
     <Reference Include="UnityEditor.Networking">
       <HintPath>Library\UnityAssemblies\UnityEditor.Networking.dll</HintPath>
     </Reference>
+    <Reference Include="UnityEditor.TestRunner">
+      <HintPath>Library\UnityAssemblies\UnityEditor.TestRunner.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TestRunner">
+      <HintPath>Library\UnityAssemblies\UnityEngine.TestRunner.dll</HintPath>
+    </Reference>
+    <Reference Include="nunit.framework">
+      <HintPath>Library\UnityAssemblies\nunit.framework.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEngine.Timeline">
       <HintPath>Library\UnityAssemblies\UnityEngine.Timeline.dll</HintPath>
     </Reference>
@@ -334,8 +343,29 @@
     <Reference Include="Boo.Lang">
       <HintPath>Library\UnityAssemblies\Boo.Lang.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.XR.MagicLeap.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.XR.MagicLeap.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.StandardEvents">
+      <HintPath>Library\ScriptAssemblies\UnityEditor.StandardEvents.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.PackageManagerUI.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.PackageManagerUI.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.XR.MagicLeap">
       <HintPath>Library\ScriptAssemblies\Unity.XR.MagicLeap.dll</HintPath>
+    </Reference>
+    <Reference Include="LuminUnityEditor">
+      <HintPath>Assets\MagicLeap\Libs\Editor\LuminUnityEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="MSA.Runtime">
+      <HintPath>Assets\MagicLeap\Soundfield\MSA.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="LuminUnity">
+      <HintPath>Assets\MagicLeap\Libs\LuminUnity.dll</HintPath>
+    </Reference>
+    <Reference Include="MSA.Editor">
+      <HintPath>Assets\MagicLeap\Soundfield\Editor\MSA.Editor.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -349,9 +379,45 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Packages\com.unity.xr.magicleap\Editor\MLSpatialMapperEditor.cs" />
+    <Compile Include="Assets\MagicLeap\CoreComponents\Editor\MLImageTrackerBehaviorEditor.cs" />
+    <Compile Include="Assets\MagicLeap\Scripts\Editor\BuildMabuWindow.cs" />
+    <Compile Include="Assets\MagicLeap\Scripts\Editor\MLVersionMenuItem.cs" />
+    <Compile Include="Assets\MagicLeap\Scripts\Editor\MusicExampleBuilder.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\MagicLeap\BackgroundMusicExample\music_manifest.xml" />
+    <None Include="Assets\MagicLeap\BackgroundMusicExample\readme.txt" />
+    <None Include="Assets\MagicLeap\CoreComponents\Vignette\Vignette.shader" />
+    <None Include="Assets\MagicLeap\Examples\Documentation\AudioCapture.txt" />
+    <None Include="Assets\MagicLeap\Examples\Documentation\Controller.txt" />
+    <None Include="Assets\MagicLeap\Examples\Documentation\HandTracking.txt" />
+    <None Include="Assets\MagicLeap\Examples\Documentation\ImageCapture.txt" />
+    <None Include="Assets\MagicLeap\Examples\Documentation\ImageTracking.txt" />
+    <None Include="Assets\MagicLeap\Examples\Documentation\LightTracking.txt" />
+    <None Include="Assets\MagicLeap\Examples\Documentation\MediaPlayer.txt" />
+    <None Include="Assets\MagicLeap\Examples\Documentation\Meshing.txt" />
+    <None Include="Assets\MagicLeap\Examples\Documentation\MobileApp.txt" />
+    <None Include="Assets\MagicLeap\Examples\Documentation\MusicService.txt" />
+    <None Include="Assets\MagicLeap\Examples\Documentation\Persistence.txt" />
+    <None Include="Assets\MagicLeap\Examples\Documentation\Placement.txt" />
+    <None Include="Assets\MagicLeap\Examples\Documentation\Planes.txt" />
+    <None Include="Assets\MagicLeap\Examples\Documentation\Raycast.txt" />
+    <None Include="Assets\MagicLeap\Examples\Documentation\VideoCapture.txt" />
+    <None Include="Assets\MagicLeap\Examples\Documentation\Vignette.txt" />
+    <None Include="Assets\MagicLeap\Examples\Documentation\WorldScale.txt" />
+    <None Include="Assets\MagicLeap\Examples\Models\Controller\Shaders\ControllerDepthMask.shader" />
+    <None Include="Assets\MagicLeap\Examples\Plugins\Lumin\manifest.xml" />
+    <None Include="Assets\MagicLeap\Examples\Shaders\BasicWorldSpace.shader" />
+    <None Include="Assets\MagicLeap\Examples\Shaders\MeshWorldSpace.shader" />
+    <None Include="Assets\MagicLeap\Examples\Shaders\PlaneEdge.shader" />
+    <None Include="Assets\MagicLeap\Examples\Shaders\PointCloud.shader" />
+    <None Include="Assets\MagicLeap\Examples\Shaders\UnlitColorTransparent.shader" />
+    <None Include="Assets\MagicLeap\Examples\Shaders\WorldVerticalWithFilter.shader" />
+    <None Include="Assets\MagicLeap\Examples\Shaders\WorldXZWithColor.shader" />
+    <None Include="Assets\MagicLeap\Examples\Shaders\WorldXZWithLerp.shader" />
+    <None Include="Assets\MagicLeap\Libs\Editor\LuminUnityEditor.xml" />
+    <None Include="Assets\MagicLeap\Libs\LuminUnity.xml" />
+    <None Include="Assets\MagicLeap\Soundfield\Release Notes.txt" />
     <None Include="Packages\com.unity.package-manager-ui\Editor\Resources\Styles\Main_Dark.uss" />
     <None Include="Packages\com.unity.package-manager-ui\Editor\Resources\Styles\Main_Light.uss" />
     <None Include="Packages\com.unity.package-manager-ui\Editor\Resources\Templates\Alert.uxml" />
