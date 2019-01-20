@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio for Mac
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "soundgarden", "Assembly-CSharp.csproj", "{178D241D-BF59-B372-59D6-56DB467CF150}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SoundGarden", "Assembly-CSharp.csproj", "{D38ABB3B-79D2-186E-F8B6-7009B1887BA5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "soundgarden", "Assembly-CSharp-Editor.csproj", "{27FE4ADA-2881-2D79-EFC7-4DA7CCD0D63F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SoundGarden", "Assembly-CSharp-Editor.csproj", "{23924D15-15D3-1BFA-9F20-4DA46C724801}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,14 +11,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{178D241D-BF59-B372-59D6-56DB467CF150}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{178D241D-BF59-B372-59D6-56DB467CF150}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{178D241D-BF59-B372-59D6-56DB467CF150}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{178D241D-BF59-B372-59D6-56DB467CF150}.Release|Any CPU.Build.0 = Release|Any CPU
-		{27FE4ADA-2881-2D79-EFC7-4DA7CCD0D63F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{27FE4ADA-2881-2D79-EFC7-4DA7CCD0D63F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{27FE4ADA-2881-2D79-EFC7-4DA7CCD0D63F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{27FE4ADA-2881-2D79-EFC7-4DA7CCD0D63F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D38ABB3B-79D2-186E-F8B6-7009B1887BA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D38ABB3B-79D2-186E-F8B6-7009B1887BA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D38ABB3B-79D2-186E-F8B6-7009B1887BA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D38ABB3B-79D2-186E-F8B6-7009B1887BA5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23924D15-15D3-1BFA-9F20-4DA46C724801}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23924D15-15D3-1BFA-9F20-4DA46C724801}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23924D15-15D3-1BFA-9F20-4DA46C724801}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23924D15-15D3-1BFA-9F20-4DA46C724801}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
