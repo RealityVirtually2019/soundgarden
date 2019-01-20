@@ -66,17 +66,17 @@
     <Compile Include="Assets\MagicLeap\Scripts\Editor\MLVersionMenuItem.cs" />
     <Compile Include="Assets\MagicLeap\Scripts\Editor\MusicExampleBuilder.cs" />
     <None Include="Assets\MagicLeap\Libs\Editor\LuminUnityEditor.xml" />
-    <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>/Users/xinyelin/Documents/HACKATHON SOUND GARDEN/soundgarden/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.XR.MagicLeap">
-      <HintPath>/Users/xinyelin/Documents/HACKATHON SOUND GARDEN/soundgarden/Library/ScriptAssemblies/Unity.XR.MagicLeap.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.XR.MagicLeap.Editor">
       <HintPath>/Users/xinyelin/Documents/HACKATHON SOUND GARDEN/soundgarden/Library/ScriptAssemblies/Unity.XR.MagicLeap.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>/Users/xinyelin/Documents/HACKATHON SOUND GARDEN/soundgarden/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.PackageManagerUI.Editor">
+      <HintPath>/Users/xinyelin/Documents/HACKATHON SOUND GARDEN/soundgarden/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.XR.MagicLeap">
+      <HintPath>/Users/xinyelin/Documents/HACKATHON SOUND GARDEN/soundgarden/Library/ScriptAssemblies/Unity.XR.MagicLeap.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -318,6 +318,18 @@
     <Reference Include="UnityEditor.Lumin.Extensions">
       <HintPath>/Applications/Unity/Unity.app/Contents/PlaybackEngines/Lumin/UnityEditor.Lumin.Extensions.dll</HintPath>
     </Reference>
+    <Reference Include="MSA.Runtime">
+      <HintPath>/Users/xinyelin/Documents/HACKATHON SOUND GARDEN/soundgarden/Assets/MagicLeap/Soundfield/MSA.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="MSA.Editor">
+      <HintPath>/Users/xinyelin/Documents/HACKATHON SOUND GARDEN/soundgarden/Assets/MagicLeap/Soundfield/Editor/MSA.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="LuminUnity">
+      <HintPath>/Users/xinyelin/Documents/HACKATHON SOUND GARDEN/soundgarden/Assets/MagicLeap/Libs/LuminUnity.dll</HintPath>
+    </Reference>
+    <Reference Include="LuminUnityEditor">
+      <HintPath>/Users/xinyelin/Documents/HACKATHON SOUND GARDEN/soundgarden/Assets/MagicLeap/Libs/Editor/LuminUnityEditor.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEditor.Advertisements">
       <HintPath>/Users/xinyelin/Library/Unity/cache/packages/packages.unity.com/com.unity.ads@2.0.8/Editor/UnityEditor.Advertisements.dll</HintPath>
     </Reference>
@@ -338,18 +350,6 @@
     </Reference>
     <Reference Include="SyntaxTree.VisualStudio.Unity.Bridge">
       <HintPath>/Applications/Visual Studio.app/Contents/Resources/lib/monodevelop/AddIns/MonoDevelop.Unity/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
-    </Reference>
-    <Reference Include="LuminUnityEditor">
-      <HintPath>/Users/xinyelin/Documents/HACKATHON SOUND GARDEN/soundgarden/Assets/MagicLeap/Libs/Editor/LuminUnityEditor.dll</HintPath>
-    </Reference>
-    <Reference Include="MSA.Runtime">
-      <HintPath>/Users/xinyelin/Documents/HACKATHON SOUND GARDEN/soundgarden/Assets/MagicLeap/Soundfield/MSA.Runtime.dll</HintPath>
-    </Reference>
-    <Reference Include="LuminUnity">
-      <HintPath>/Users/xinyelin/Documents/HACKATHON SOUND GARDEN/soundgarden/Assets/MagicLeap/Libs/LuminUnity.dll</HintPath>
-    </Reference>
-    <Reference Include="MSA.Editor">
-      <HintPath>/Users/xinyelin/Documents/HACKATHON SOUND GARDEN/soundgarden/Assets/MagicLeap/Soundfield/Editor/MSA.Editor.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
       <HintPath>/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/2.0-api/mscorlib.dll</HintPath>
