@@ -143,6 +143,7 @@
     <Compile Include="Assets\Scripts\glow_player.cs" />
     <Compile Include="Assets\Scripts\OpenSource\GestureDetection.cs" />
     <Compile Include="Assets\Scripts\OpenSource\TouchCubeCollider.cs" />
+    <Compile Include="Assets\Scripts\SceneChanger.cs" />
     <Compile Include="Assets\Scripts\SeedPickup.cs" />
     <None Include="Assets\MagicLeap\BackgroundMusicExample\readme.txt" />
     <None Include="Assets\MagicLeap\Examples\Shaders\PointCloud.shader" />
