@@ -74,26 +74,36 @@ public class Control6DOF : MonoBehaviour {
                 }
             }
             string myname = other.name;
-            if (myname.Contains("Yellow"))
+            if (myname.Contains("Acorn_Bright_Yellow"))
             {
-                resetMoodVisuals();
-                Yellow.SetActive(true);
-                // todo: loop through children and start animations!
+                if (!Yellow.activeSelf) {
+                    resetMoodVisuals();
+                    Yellow.SetActive(true);
+                }
             }
-            else if (myname.Contains("Blue"))
+            else if (myname.Contains("Acorn_Bright_Blue"))
             {
-                resetMoodVisuals();
-                Blue.SetActive(true);
+                if (!Blue.activeSelf)
+                {
+                    resetMoodVisuals();
+                    Blue.SetActive(true);
+                }
             }
-            else if (myname.Contains("Pink"))
+            else if (myname.Contains("Acorn_Bright_Pink"))
             {
-                resetMoodVisuals();
-                Pink.SetActive(true);
+                if (!Pink.activeSelf)
+                {
+                    resetMoodVisuals();
+                    Pink.SetActive(true);
+                }
             }
-            else if (myname.Contains("Green"))
+            else if (myname.Contains("Acorn_Bright_Green"))
             {
-                resetMoodVisuals();
-                Green.SetActive(true);
+                if (!Green.activeSelf)
+                {
+                    resetMoodVisuals();
+                    Green.SetActive(true);
+                }
             }
         }
 
